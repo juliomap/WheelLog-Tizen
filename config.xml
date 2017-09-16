@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://serfoco.org/Wheellog" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="ZxTNJ1XDNU.Wheellog" package="ZxTNJ1XDNU" required_version="2.2"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="ic_launcher.png"/>
+    <tizen:metadata key="AccessoryServicesLocation" value="res/xml/sapservices.xml"/>
+    <name>Wheellog</name>
+    <tizen:privilege name="http://developer.samsung.com/privilege/accessoryprotocol"/>
+    <tizen:privilege name="http://tizen.org/privilege/power"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+</widget>

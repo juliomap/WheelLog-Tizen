@@ -1,0 +1,43 @@
+* {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+    color:#ffffff; /** White **/
+}
+
+body {
+/**     margin: 0px auto; **/
+    background-color:#000; /** Black **/
+}
+h2 {
+	width: 100%;
+	font-weight:normal;
+	font-size:0.2em;
+    background-color:#656565; /* Gris */
+	color:#FFFFFF; /* No le hace ni caso */
+	text-align:center;
+}
+/**
+.content {
+	display: flex;
+	display: -webkit-flex;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height:320px;
+}
+**/
+
+.content_title {
+	width: 100%;
+	font-weight:normal;
+	font-size:15px;
+	color:#fff;
+	text-align:center;
+}
+
+.content_text {
+	width: 100%;
+	font-weight:bold;
+	font-size:20vh; /** 6em **/
+	color:#fff;
+	text-align:center;
+	outline: 1px solid blue;
+}

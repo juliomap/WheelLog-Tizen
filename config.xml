@@ -3,8 +3,12 @@
     <tizen:application id="ZxTNJ1XDNU.Wheellog" package="ZxTNJ1XDNU" required_version="2.2"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.all"/>
-    <icon src="ic_launcher.png"/>
+    <icon src="ic_launcher_circ.png"/>
     <tizen:metadata key="AccessoryServicesLocation" value="res/xml/sapservices.xml"/>
+    <tizen:metadata key="master_app_name" value="WheelLog"/>
+    <tizen:metadata key="master_app_packagename" value="com.cooper.wheellog"/>
+    <tizen:metadata key="master_app_3rd_url_deeplink" value="https://drive.google.com/file/d/0B3cjKgEvoZ5XUHlvTHFpY0tzOWc/view?usp=sharing"/>
+    <tizen:metadata key="master_app_auto_uninstallation" value="no"/>
     <name>Wheellog</name>
     <tizen:privilege name="http://developer.samsung.com/privilege/accessoryprotocol"/>
     <tizen:privilege name="http://tizen.org/privilege/power"/>

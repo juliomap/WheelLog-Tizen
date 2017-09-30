@@ -95,8 +95,8 @@ function onreceive(channelid, data) {
 		try {
 			var wheelData = jQuery.parseJSON(data);
 			$('#textbox1').html( formatSpeed(wheelData.speed));
-			$('#textbox2').html( wheelData.batteryLevel + " &percnt;");
-			$('#textbox3').html( wheelData.distance );
+			$('#textbox2').html( wheelData.distance );
+			$('#textbox3').html( wheelData.batteryLevel + " &percnt;");
 		}
 		catch(e) {
 			$('#textbox1').html("bad");
